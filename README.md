@@ -1,4 +1,4 @@
-# Crosshair - Computer Vision Based Aimbot
+## Crosshair - Computer Vision Based Aimbot
 
 This project is meant to create a computer vision based aimbot and document the process of how it was created.
 
@@ -8,7 +8,8 @@ This section is an attempt to describe and document the use of a static version 
 
 This process was done on Ubuntu 18.04 using a GTX1660 Super GPU.
 
-Notes: Please read through this readme in its entirety before beginning installation as this process is a massive headache that you will likely need to attempt multiple times. 
+# Notes: 
+Please read through this readme in its entirety before beginning installation as this process is a massive headache that you will likely need to attempt multiple times. 
 
 The best tutorial that I found for the installation process was [here](https://towardsdatascience.com/getting-your-machine-ready-to-use-yolov3-object-detector-on-ubuntu-18-04-185799ebc18d). This article does a good job of taking you through all of the steps required to install all of darknets dependencies, but some of the information was a little out of date. This was due in part to the fact that the darknet source code has changed sincec the article was published. to combat any changes in source code, I have downloaded a zip file of the most recent version of darknet as of 3-20-2021 and am including it along with its readme files.
 
