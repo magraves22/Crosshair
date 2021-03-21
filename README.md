@@ -26,3 +26,6 @@ This has to do with a change between cuDNN 10 and cuDNN 11
 
 ## Training:
 If you have made it this far this is the easy part and the training instructions in the darknet repo should have been easy enough to follow. This far I have trained 4 decently performing models that can be found in the weights folder. between training the regular and Tiny versions of Yolo I discovered the -map command. I will return to the regular yolo implementations to attempt to calculate their mAp scores.
+
+## Initial Testing:
+A first test on real video of CS:GO gameplay can be found [here](https://youtu.be/EPIVAnANO1I). As can be seen the model has some quirke but I believe that a number of those can be corrected by adjusting the threshold. It should also be noted that although the video quality looks poor, this is because yolo, scales the image to a 416x416 pixel grid to reduce computational requirements. If you would like to read up on the implementation of Yolo I would suggest starting [here](https://pjreddie.com/darknet/yolo/)
