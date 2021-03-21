@@ -22,4 +22,7 @@ As pointed out in the how-to article [These](https://gist.github.com/Mahedi-61/2
 
 sudo cp -P cuda/include/cudnn*.h /usr/local/cuda-11.2/include
 
-This has to do with a change between cuDNN10 nad cuDNN11
+This has to do with a change between cuDNN 10 and cuDNN 11
+
+## Training:
+If you have made it this far this is the easy part and the training instructions in the darknet repo should have been easy enough to follow. This far I have trained 4 decently performing models that can be found in the weights folder. between training the regular and Tiny versions of Yolo I discovered the -map command. I will return to the regular yolo implementations to attempt to calculate their mAp scores.
