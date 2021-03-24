@@ -29,3 +29,6 @@ If you have made it this far this is the easy part and the training instructions
 
 ## Initial Testing:
 A first test on real video of CS:GO gameplay can be found [here](https://youtu.be/EPIVAnANO1I). As can be seen the model has some quirke but I believe that a number of those can be corrected by adjusting the threshold. It should also be noted that although the video quality looks poor, this is because yolo, scales the image to a 416x416 pixel grid to reduce computational requirements. If you would like to read up on the implementation of Yolo I would suggest starting [here](https://pjreddie.com/darknet/yolo/)
+
+## Next Steps:
+Next steps for this project include either finding some library to deploy darknet or converting the darknet model to tensorflow. This model will be wrapped in a python or c++ program to run on top of CS:GO.
